@@ -1,0 +1,104 @@
+.cardEmpleado {
+    min-width: 50rem;
+    min-height: 28rem;
+    border-right: ridge;
+    border-bottom: ridge;
+    border-radius: 10px;
+}
+.cardCrudEmpleado {
+    min-width: 50rem;
+    min-height: 25rem;
+    border-right: ridge;
+    border-bottom: ridge;
+    border-radius: 10px;
+}
+
+.cardContentEmpleado {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardContentEmpleadoUp {
+    display: flex;
+}
+
+.cardImageEmpleado {
+    border-right: ridge;
+    border-left: ridge;
+    border-radius: 10px;
+}
+
+.textCard {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.textFileCardEdadEmpleado {
+    padding-right: 1rem;
+    height: 2rem !important;
+    font-size: 15px !important;
+    text-align: center !important;
+}
+
+.textFileCardEmpleado {
+    padding-right: 1rem;
+    height: 2rem !important;
+    font-size: 15px !important;
+}
+
+.textFileCardEmpleadoSmall {
+    height: 2rem !important;
+    width: 6rem !important;
+    font-size: 15px !important;
+}
+
+.cardContentEmpleadoDown {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.cardDownTwoSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+.cardDownTwoSectionFechas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+.numeroDeVacunas{
+    height: 2rem !important;
+    width: 3rem !important;
+    font-size: 15px !important;
+}
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    text-align: center !important;
+}
+.css-4xjr5x-MuiFormLabel-root-MuiInputLabel-root.Mui-disabled {
+    color: rgb(0, 0, 0) !important;
+}
+.css-v5y29m-MuiInputBase-root-MuiOutlinedInput-root.Mui-disabled {
+    color: rgba(0, 0, 0, 0.80) !important;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled {
+    opacity: 1 !important;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.65) !important;
+}
+.css-yhcrxv-MuiInputBase-root-MuiOutlinedInput-root.Mui-disabled {
+    color: rgba(0, 0, 0, 0.80) !important;
+}
+/* .css-f1uni6-MuiFormLabel-root-MuiInputLabel-root.Mui-disabled {
+    color: rgba(0, 0, 0, 0) !important;
+} */

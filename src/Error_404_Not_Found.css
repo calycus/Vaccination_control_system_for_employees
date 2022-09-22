@@ -1,0 +1,154 @@
+.cont_principal {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.cont_error {
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.cont_error>h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 150px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: -100%;
+    transition: all 0.5s;
+    margin-bottom: 0;
+}
+
+.cont_error>p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 5px;
+    color: rgb(0 174 79);
+    position: relative;
+    left: 100%;
+    transition: all 0.5s;
+    transition-delay: 0.5s;
+    -webkit-transition: all 0.5s;
+    -webkit-transition-delay: 0.5s;
+}
+
+.cont_aura_1 {
+    position: absolute;
+    width: 300px;
+    height: 120%;
+    top: 25px;
+    right: -340px;
+    /* background-color: rgb(26 41 124); */
+    background-image: url("../public/image/bg.png");
+    box-shadow: 0px 0px 60px 20px rgba(246, 154, 79, 0.3);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.cont_aura_2 {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    right: -10%;
+    bottom: -301px;
+    /* background-color: rgb(26 41 124); */
+    background-image: url("../public/image/bg.png");
+    box-shadow: 0px 0px 60px 10px rgba(246, 154, 79, 0.3), 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.cont_error_active>.cont_error>h2 {
+    left: 0%;
+}
+
+.cont_error_active>.cont_error>p {
+    left: 0%;
+}
+
+.cont_error_active>.cont_aura_2 {
+    animation-name: animation_error_2;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform: rotate(-20deg);
+}
+
+.cont_error_active>.cont_aura_1 {
+    transform: rotate(20deg);
+    right: -170px;
+    animation-name: animation_error_1;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@media (max-width: 1150px) {
+    .cont_aura_1 {
+        display: none;
+    }
+
+    .cont_aura_2 {
+        display: none;
+    }
+}
+
+@-webkit-keyframes animation_error_1 {
+    from {
+        -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
+    }
+
+    to {
+        -webkit-transform: rotate(25deg);
+        transform: rotate(25deg);
+    }
+}
+
+@-o-keyframes animation_error_1 {
+    from {
+        -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
+    }
+
+    to {
+        -webkit-transform: rotate(25deg);
+        transform: rotate(25deg);
+    }
+
+}
+
+@-moz-keyframes animation_error_1 {
+    from {
+        -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
+    }
+
+    to {
+        -webkit-transform: rotate(25deg);
+        transform: rotate(25deg);
+    }
+
+}
+
+@keyframes animation_error_1 {
+    from {
+        -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
+    }
+
+    to {
+        -webkit-transform: rotate(25deg);
+        transform: rotate(25deg);
+    }
+}

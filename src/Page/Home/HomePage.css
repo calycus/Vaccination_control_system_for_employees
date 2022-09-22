@@ -1,0 +1,230 @@
+.noscroll {
+  overflow: hidden
+}
+
+body {
+  height: 100vh;
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: #555555;
+  overflow-x: hidden;
+}
+
+img {
+  height: auto;
+}
+
+.bannerImg {
+  max-width: 70vw;
+}
+
+.imgDimension {
+  min-height: 55rem;
+  max-height: 60rem;
+  min-width: 70rem;
+  max-width: 85rem;
+  /* min-width: 250px;
+  max-width: 350px;
+  min-height: 250px;
+  max-height: 350px; */
+}
+
+.cardImgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-transform: skew(0deg);
+  -moz-transform: skew(0deg);
+  -o-transform: skew(0deg);
+}
+
+.hpanel {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff
+}
+
+.leftpan {
+  left: -4%;
+  width: 70%;
+  margin: 0;
+  -webkit-transform: skew(8deg);
+  -moz-transform: skew(8deg);
+  -o-transform: skew(8deg);
+}
+
+.leftpan .background-img {
+  /* background-image: url("../../../public/image/background-image.gif"); */
+}
+
+.rightpan {
+  right: -10%;
+  width: 55%;
+  margin: 0;
+  -webkit-transform: skew(-15deg);
+  -moz-transform: skew(-15deg);
+  -o-transform: skew(-15deg);
+}
+
+.rightpan .background-img {
+  background-color: rgb(61, 83, 207);
+}
+
+.rightpan .background-img-R {
+  background-color: rgba(5, 5, 5, 0.594);
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.background-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.5rem;
+  padding-right: 5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-img-lef {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.leftpan .content-area {
+  -webkit-transform: skew(8deg);
+  -moz-transform: skew(8deg);
+  -o-transform: skew(8deg);
+
+}
+
+.rightpan .content-area {
+  -webkit-transform: skew(-8deg);
+  -moz-transform: skew(-8deg);
+  -o-transform: skew(-8deg);
+}
+
+
+/* Card Leftpan */
+.textRightpan {
+  padding: 0rem 2rem 2rem 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+/*Card Rightpan*/
+.cardRolContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-transform: skew(15deg);
+  -moz-transform: skew(15deg);
+  -o-transform: skew(15deg);
+}
+
+
+@media (max-width: 970px) {
+
+  /* Banner */
+  .bannerImg {
+    max-width: 100vw;
+  }
+
+  /* leftpan */
+  .leftpan {
+    display: none;
+  }
+
+  /*  rightpan  */
+  .rightpan {
+    right: 0%;
+    width: 100%;
+    z-index: -1;
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+  }
+
+  .background-img {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+
+  .rightpan .background-img {
+    /* background-image: url("../../../public/image/background-image.gif"); */
+    background-color: rgba(254, 254, 254, 0);
+  }
+
+  .rightpan .background-img-R {
+    /* background-color: rgba(69, 68, 150, 0.473); */
+    background-image: url("../../../public/image/background-image.gif");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /*Card Rightpan*/
+  .cardRolContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+  }
+
+  .textRightpan {
+    padding: 0rem 2rem 2rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
+
+}
+
+@media (max-width: 1320px) {
+  .background-img {
+    padding-left: 0rem;
+  }
+
+  .imgDimension {
+    min-height: 35rem;
+    max-height: 45rem;
+    min-width: 50rem;
+    max-width: 60rem;
+  }
+}
