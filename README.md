@@ -17,7 +17,7 @@ By default the project uses a JSON file which contains the initial access creden
 user:     admin\
 password: admin\
 \
-![Screenshot_9](https://user-images.githubusercontent.com/46092860/189565026-a2886731-7645-4396-9f21-39b856af220f.png) \
+![Prueba (1)](https://user-images.githubusercontent.com/46092860/192166705-6d6a9393-a648-4724-8803-72b37d0a3668.gif)
 \
 \
 For the registration and control of employee data, it was decided to use localStorage as a replacement for the backend.\
