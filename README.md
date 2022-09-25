@@ -1,6 +1,6 @@
-# Practical test Krueger Corp
+# Employee Vaccination Control System
 
-This technical test was developed following the instructions provided by the company.
+System in charge of keeping track of vaccination of registered employees or to be registered in a company.
 
 ## Technical Data
 
