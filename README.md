@@ -4,8 +4,8 @@ System in charge of keeping track of vaccination of registered employees or to b
 
 ## Technical Data
 
-Kruger Corporation requires an application to keep track of employee vaccination status inventory.\
-The application will have 2 roles: \
+This system allows you to track the inventory of the vaccination status of employees.\
+For efficient use, the application will have 2 roles:\
 \
 Administrator.\
 \
